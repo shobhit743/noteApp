@@ -23,6 +23,7 @@ fun AddEditNotesScreen(
         navController: NavController,
         viewModel: AddEditNotesViewModel = hiltViewModel()
 ) {
+
     val title = viewModel.name.value
     val desc = viewModel.desc.value
     val noteColor = viewModel.color.value
